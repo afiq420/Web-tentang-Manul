@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.judul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+h1 {
+    color: rgb(142, 143, 250);
+    text-align: center;
+    margin: 1rem 0;
+    background-color: rgb(39, 0, 93);
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .gambar-main {
+        margin-left: 10%;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        text-align: center
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin : 30px;
+        padding: 15px;
+    }
+
+}
+
+.gambar-main {
+    margin-left: 12%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin : 30px;
+    padding: 15px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(228, 241, 255);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(148, 0, 255);
+    text-align: center;
+}
+
+.gambar {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.foto-aside {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.biodata {
+    text-align: left;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+section {
+    width: 350px;
+    background-color: rgb(174, 210, 255);
+    border-radius: 10px;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin : 30px;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+li a {
+    display: block;
+    padding: 10px;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+li a:hover {
+    background:rgb(194, 217, 255);
+    color: rgb(0, 0, 0);
+}
+
+aside {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me {
+    width: 300px;
+    background-color: rgb(142, 143, 250);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    margin : 30px;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: rgb(25, 4, 130);
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.isi-footer {
+    color: rgb(255, 255, 255);
+}
